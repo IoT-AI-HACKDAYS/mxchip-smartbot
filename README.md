@@ -25,7 +25,7 @@ To setup and create the LUIS application you need to
 4. Once your app has been published you can navigate to the "MANAGE" tab and then the "Azure Resources" blade. Copy the URL that is in the "Example Query" box.  ![LUIS App detail](.images/luis_manage.PNG)
 
 ## Deploying Resources
-You need deploy the [function](Function) to azure.
+You need deploy the [function](smartbot/function) to azure.
 Open the workspace in VSCade and then right click on the "Function" folder and select "Deploy to Function App". (This assumes you have the "[Azure Functions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)" extension installed)
 Select and complete the prompts to deploy the function.
 On completion you will need to create function "Application Settings" for:
@@ -34,7 +34,7 @@ On completion you will need to create function "Application Settings" for:
 - "SpeechToTextSubscriptionKey" : Subscription key of your speech-to-text service in Azure
 
 ## Deploy to device 
-Next, you will need to deploy the [device code](Device/) to your MXCHIP AZ3166 board. 
+Next, you will need to deploy the [device code](smartbot/device) to your MXCHIP AZ3166 board. 
 1. In the device folder there is a file called "__azure_config.h__". 
     - You need to update the setting to point to the url of your function
     - In VSCode if you expand the "Functions" in the "Azure Functions" extension, you should see your function that was created 
