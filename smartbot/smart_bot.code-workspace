@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "./Device"
+		},
+		{
+			"path": "./Function"
+		}
+	],
+	"settings": {
+		"debug.internalConsoleOptions": "neverOpen"
+	}
+}

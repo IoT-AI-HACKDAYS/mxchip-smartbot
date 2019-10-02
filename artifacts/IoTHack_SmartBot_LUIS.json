@@ -1,0 +1,195 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.1",
+  "name": "IoTHack",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "Bot.GoFaster"
+    },
+    {
+      "name": "Bot.GoSlower"
+    },
+    {
+      "name": "Bot.MoveForward"
+    },
+    {
+      "name": "Bot.MoveLeft"
+    },
+    {
+      "name": "Bot.MoveRight"
+    },
+    {
+      "name": "Bot.Reverse"
+    },
+    {
+      "name": "Bot.Stop"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Utilities.DirectionalReference",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "DirectionalReference"
+      },
+      "roles": [],
+      "hierarchyChildren": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "number",
+      "roles": []
+    },
+    {
+      "name": "ordinal",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "continue straight",
+      "intent": "Bot.MoveForward",
+      "entities": []
+    },
+    {
+      "text": "faster",
+      "intent": "Bot.GoFaster",
+      "entities": []
+    },
+    {
+      "text": "forward",
+      "intent": "Bot.MoveForward",
+      "entities": []
+    },
+    {
+      "text": "go",
+      "intent": "Bot.MoveForward",
+      "entities": []
+    },
+    {
+      "text": "go back",
+      "intent": "Bot.Reverse",
+      "entities": []
+    },
+    {
+      "text": "go faster",
+      "intent": "Bot.GoFaster",
+      "entities": []
+    },
+    {
+      "text": "go left",
+      "intent": "Bot.MoveLeft",
+      "entities": []
+    },
+    {
+      "text": "go quicker",
+      "intent": "Bot.GoFaster",
+      "entities": []
+    },
+    {
+      "text": "go right",
+      "intent": "Bot.MoveRight",
+      "entities": []
+    },
+    {
+      "text": "go straight",
+      "intent": "Bot.MoveForward",
+      "entities": []
+    },
+    {
+      "text": "halt",
+      "intent": "Bot.Stop",
+      "entities": []
+    },
+    {
+      "text": "increase speed",
+      "intent": "Bot.GoFaster",
+      "entities": []
+    },
+    {
+      "text": "left",
+      "intent": "Bot.MoveLeft",
+      "entities": []
+    },
+    {
+      "text": "move",
+      "intent": "Bot.MoveForward",
+      "entities": []
+    },
+    {
+      "text": "move right",
+      "intent": "Bot.MoveRight",
+      "entities": []
+    },
+    {
+      "text": "move slower",
+      "intent": "Bot.GoSlower",
+      "entities": []
+    },
+    {
+      "text": "please go",
+      "intent": "Bot.MoveForward",
+      "entities": []
+    },
+    {
+      "text": "reduce speed",
+      "intent": "Bot.GoSlower",
+      "entities": []
+    },
+    {
+      "text": "reverse",
+      "intent": "Bot.Reverse",
+      "entities": []
+    },
+    {
+      "text": "right",
+      "intent": "Bot.MoveRight",
+      "entities": []
+    },
+    {
+      "text": "shut down",
+      "intent": "Bot.Stop",
+      "entities": []
+    },
+    {
+      "text": "slow down",
+      "intent": "Bot.GoSlower",
+      "entities": []
+    },
+    {
+      "text": "speed up",
+      "intent": "Bot.GoFaster",
+      "entities": []
+    },
+    {
+      "text": "stop",
+      "intent": "Bot.Stop",
+      "entities": []
+    },
+    {
+      "text": "turn left",
+      "intent": "Bot.MoveLeft",
+      "entities": []
+    },
+    {
+      "text": "turn right",
+      "intent": "Bot.MoveRight",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
